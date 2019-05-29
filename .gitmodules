@@ -1,0 +1,6 @@
+[submodule "dependencies/ENDFtk"]
+	path = dependencies/ENDFtk
+	url = https://github.com/njoy/ENDFtk
+[submodule "dependencies/ACEtk"]
+	path = dependencies/ACEtk
+	url = https://github.com/njoy/ACEtk

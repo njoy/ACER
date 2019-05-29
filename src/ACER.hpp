@@ -2,6 +2,7 @@
 #define ACER_HPP
 
 
+#include "ACEtk.hpp"
 #include "ENDFtk.hpp"
 
 namespace njoy   {
