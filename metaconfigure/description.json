@@ -586,6 +586,7 @@
   "is external project": false,
   "language": "c++",
   "name": "ACER",
+  "standard": "c++14",
   "standards": [
     "c++98",
     "c++11",
@@ -593,6 +594,10 @@
   ],
   "strict": true,
   "test pattern": "test$",
-  "tests": {},
+  "tests": {
+    "ACER": [
+      "src/ACER/test/ACER.test.cpp"
+    ]
+  },
   "update": true
 }
