@@ -8,6 +8,9 @@
 namespace njoy   {
 namespace ACER {
 
+
+#include "ACER/Fast.hpp"
+
 }
 }
 #endif // ACER_HPP

@@ -577,7 +577,9 @@
     ]
   },
   "header files": [
-    "src/ACER.hpp"
+    "src/ACER.hpp",
+    "src/ACER/Fast.hpp",
+    "src/ACER/Fast/src/ctor.hpp"
   ],
   "ignore pattern": "$^",
   "implementation files": [],
@@ -597,6 +599,9 @@
   "tests": {
     "ACER": [
       "src/ACER/test/ACER.test.cpp"
+    ],
+    "ACER.Fast": [
+      "src/ACER/Fast/test/Fast.test.cpp"
     ]
   },
   "update": true
