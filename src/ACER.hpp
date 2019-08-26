@@ -17,7 +17,7 @@ namespace njoy   {
 namespace ACER {
 
 
-#include "ACER/Fast.hpp"
+#include "ACER/type.hpp"
 
 }
 }

@@ -578,9 +578,11 @@
   },
   "header files": [
     "src/ACER.hpp",
-    "src/ACER/Fast.hpp",
-    "src/ACER/Fast/src/ctor.hpp",
-    "src/ACER/Fast/src/buildReactions.hpp"
+    "src/ACER/type.hpp",
+    "src/ACER/type/Base.hpp",
+    "src/ACER/type/Fast.hpp",
+    "src/ACER/type/Base/src/ctor.hpp",
+    "src/ACER/type/Base/src/buildReactions.hpp"
   ],
   "ignore pattern": "$^",
   "implementation files": [],
@@ -601,8 +603,11 @@
     "ACER": [
       "src/ACER/test/ACER.test.cpp"
     ],
-    "ACER.Fast": [
-      "src/ACER/Fast/test/Fast.test.cpp"
+    "ACER.type.Base": [
+      "src/ACER/type/Base/test/Base.test.cpp"
+    ],
+    "ACER.type.Fast": [
+      "src/ACER/type/Fast/test/Fast.test.cpp"
     ]
   },
   "update": true

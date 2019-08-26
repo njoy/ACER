@@ -17,7 +17,7 @@ SCENARIO( "Testing Fast ACER production" ){
     decltype( auto ) pMaterial = PENDFTape.MAT( 9228 ).front();
 
     WHEN( "the Fast class is created" ){
-      njoy::ACER::Fast fast{ eMaterial, pMaterial };
+      njoy::ACER::type::Fast fast{ eMaterial, pMaterial };
     }
   } // GIVEN
 } // SCENARIO

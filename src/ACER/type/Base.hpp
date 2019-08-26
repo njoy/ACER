@@ -1,4 +1,4 @@
-class Fast {
+class Base {
 
   using buffer_t = decltype( njoy::utility::slurpFileToMemory( "" ) );
   using Material_t = std::decay_t< decltype( 
@@ -9,6 +9,5 @@ class Fast {
   Input processed_;
 
 public:
-  #include "ACER/Fast/src/ctor.hpp"
-  // #include "ACER/Fast/src/buildReactions.hpp"
+  #include "ACER/type/Base/src/ctor.hpp"
 };
