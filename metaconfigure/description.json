@@ -579,7 +579,8 @@
   "header files": [
     "src/ACER.hpp",
     "src/ACER/Fast.hpp",
-    "src/ACER/Fast/src/ctor.hpp"
+    "src/ACER/Fast/src/ctor.hpp",
+    "src/ACER/Fast/src/buildReactions.hpp"
   ],
   "ignore pattern": "$^",
   "implementation files": [],

@@ -4,3 +4,9 @@
 [submodule "dependencies/ACEtk"]
 	path = dependencies/ACEtk
 	url = https://github.com/njoy/ACEtk
+[submodule "dependencies/variant-adapter"]
+	path = dependencies/variant-adapter
+	url = https://github.com/njoy/variant-adapter.git
+[submodule "dependencies/catch-adapter"]
+	path = dependencies/catch-adapter
+	url = https://github.com/njoy/catch-adapter.git

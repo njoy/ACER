@@ -9,8 +9,10 @@ SCENARIO( "Testing Fast ACER production" ){
     decltype( auto ) sENDF = njoy::utility::slurpFileToMemory( "U235.endf" );
     decltype( auto ) sPENDF = njoy::utility::slurpFileToMemory( "U235.pendf" );
 
-    decltype( auto ) ENDFTape = njoy::ENDFtk::syntaxTree::makeTape( sENDF );
-    decltype( auto ) PENDFTape = njoy::ENDFtk::syntaxTree::makeTape( sPENDF );
+    decltype( auto ) ENDFTape = njoy::ENDFtk::syntaxTree::makeTape( 
+        std::move( sENDF ) );
+    decltype( auto ) PENDFTape = njoy::ENDFtk::syntaxTree::makeTape( 
+        std::move( sPENDF ) );
     decltype( auto ) eMaterial = ENDFTape.MAT( 9228 ).front();
     decltype( auto ) pMaterial = PENDFTape.MAT( 9228 ).front();
 
