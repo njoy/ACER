@@ -6,7 +6,7 @@ class Fast: protected Base {
   std::vector< double > totalXS;
   std::vector< double > disappearanceXS;
 
-  std::map< int, Builder_t::Reaction::Builder > reactionBuilders;
+  std::map< int, Builder_t::Reaction::Builder& > reactionBuilders;
 
 protected:
   #include "ACER/type/FAST/src/addCrossSections.hpp"
