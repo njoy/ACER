@@ -1,6 +1,8 @@
 #ifndef ACER_HPP
 #define ACER_HPP
 
+#include <variant>
+
 #ifdef __GNUC__
   #pragma GCC diagnostic push
   #pragma GCC diagnostic ignored "-Wunused-parameter"

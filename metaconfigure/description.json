@@ -581,6 +581,7 @@
     "src/ACER/type.hpp",
     "src/ACER/type/Base.hpp",
     "src/ACER/type/Fast.hpp",
+    "src/ACER/type/Fast/src/ctor.hpp",
     "src/ACER/type/Base/src/ctor.hpp",
     "src/ACER/type/Base/src/buildReactions.hpp"
   ],

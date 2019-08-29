@@ -18,6 +18,12 @@ SCENARIO( "Testing Fast ACER production" ){
 
     WHEN( "the Fast class is created" ){
       njoy::ACER::type::Fast fast{ eMaterial, pMaterial };
+
+      // decltype( auto ) fastTable = fast.construct();
+      CHECK_THROWS_AS(
+        fast.construct(),
+        std::bad_optional_access&
+      );
     }
   } // GIVEN
 } // SCENARIO
